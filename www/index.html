@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: content: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <title>Monaca Education Web公開機能</title>
+    <script src="components/loader.js"></script><link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="css/style.css"><script src="js/education.js" defer></script><script src="js/config.js" defer></script>
+    <!-- Brython -->
+    <script src="https://cdn.jsdelivr.net/npm/brython@3.9.5/brython.min.js" defer>
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/brython@3/brython_stdlib.js" defer>
+    </script>
+    <!-- main.js -->
+    <script src="js/main.js" defer></script>
+    <!-- python.js -->
+    <script  type="text/python" src="python.py" defer></script>
+    <script>
+    </script>
+</head>
+<body onload='brython()'>
+<div id='contents'></div>
+</body>
+</html>
