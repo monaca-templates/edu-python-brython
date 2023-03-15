@@ -1,0 +1,14 @@
+{
+  "monaca-cordova-loader": {
+    "version": "1.0.4",
+    "files": [
+      "components/monaca-cordova-loader/cordova-loader.js"
+    ]
+  },
+  "monaca-core-utils": {
+    "version": "2.2.1",
+    "files": [
+      "components/monaca-core-utils/monaca-core-utils.js"
+    ]
+  }
+}
