@@ -1,7 +1,7 @@
 {
-    "name": "monaca-template-minimum",
-    "version": "1.1.2",
-    "displayName": "Monaca Template Minimum",
+    "name": "edu-python-brython",
+    "version": "1.1.3",
+    "displayName": "Python(Brython)",
     "dependencies": {
         "cordova-custom-config": "5.1.1",
         "cordova-plugin-splashscreen": "6.0.0",
